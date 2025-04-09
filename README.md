@@ -1,89 +1,70 @@
-# 🚀 HackToFuture 3.0 Repository Setup Guide
-#### To track your progress and collaborate effectively, every team must fork the official repository and follow the steps below.
-<br>
+# Getting Started with Create React App
 
-# 🔱 Fork the Repository
- #### Go to the GitHub page https://github.com/HackToFuture/HTF-XNN <br>
-  #### Click on the "Fork" button in the upper-right corner of the page.
-  #### Assign the repository name as "HTF - *<Team_Code>*".
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-  <img align="center" width = "500" src = "https://docs.github.com/assets/cb-40742/mw-1440/images/help/repository/fork-button.webp" alt="fork image"/>
-  
-  
-  ```
-  Example :
-  <Team_Code> -> A09
-  Repository Name : HTF-A09
-```
+## Available Scripts
 
-# 📥 Clone Your Forked Repository
-  #### Go to your forked repository on GitHub.
-  #### Click the green "Code" button, then click the clipboard icon to copy the URL.
+In the project directory, you can run:
 
-   <img align="center" width = "500" height="200" src = "https://docs.github.com/assets/cb-60499/mw-1440/images/help/repository/https-url-clone-cli.webp" alt="clone image"/>
- 
-  #### Open your terminal and run the following git clone command to copy the repository to your local machine.
-  #### Replace *repository-url* with the URL of your forked repository.
-  ```
-  git clone <repository-url>
-```
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# 🛠️ Start working on your project
-#### Begin building your solution! Collaborate with your teammates and push changes regularly.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# 📝 Commit Your Changes
-#### Track and save your progress using Git:
-#### Check the status of your changes
-   ```
-    git status
- ```
-  
+### `npm test`
 
-  #### Use the git add command to stage the changes you want to commit
-  ```
-    git add .
- ```
-      
-  #### Commit with a meaningful message
-  #### *Option 1* : Simple Commit Format (Beginner Friendly)
-  #### Use this if you're new to Git
-   ```
-    git commit -m "Your descriptive commit message"
- ```
-#### *Option 2* : Conventional Commits (Recommended)
-#### Follow this format for more structured, professional commit history  
-```
-git commit -m "<type>(<scope>): <subject>"
-```
-| Type | Purpose |
-|----------|----------|
-| feat    | for a new feature for the user, not a new feature for build script. Such commit will trigger a release bumping a MINOR version    |
-| fix    | for a bug fix for the user, not a fix to a build script. Such commit will trigger a release bumping a PATCH version     |
-| perf    | for performance improvements. Such commit will trigger a release bumping a PATCH version    |
-| docs    | for changes to the documentation     |
-| test | for adding missing tests, refactoring tests; no production code change  |
-| style  | for formatting changes, missing semicolons, etc  |
-| refactor | for refactoring production code, e.g. renaming a variable  |
-| build | for updating build configuration, development tools or other changes irrelevant to the user|
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Scope: Area of change (e.g., api, ui, auth)
-#### Subject: One-line summary in present tense, no period at the end
+### `npm run build`
 
-```
-Example: git commit -m "fix(button): fix submit button not working"
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# 🚀 Push Your Changes
-  #### Send your local commits to GitHub:
-  ```
-    git push origin
- ```
-# 🧠 Tips
-#### *Commit often* : Small, frequent commits help track progress and fix bugs easily.
-#### *Write clear messages* : Describe what you did in each commit.
-#### *Collaborate* : Make sure everyone in your team contributes.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**For any issues or doubts, reach out to the organizing team.** *Happy hacking!* 💻✨
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
